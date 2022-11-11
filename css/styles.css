@@ -1,0 +1,33 @@
+root {}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/*-----HEADER-----*/
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.span-logo {
+color: #2196F3;
+}
+
