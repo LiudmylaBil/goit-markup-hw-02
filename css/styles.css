@@ -18,8 +18,7 @@ body {
 }
 
 .header-logo {
-font-family: 'Raleway';
-font-style: normal;
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -32,7 +31,6 @@ color: #2196F3;
 }
 
 .header-link {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -68,7 +66,6 @@ color: #2196F3;
 /*-----HERO-----*/
 
 .hero {
-font-style: normal;    
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -166,7 +163,7 @@ background: #2F303A;
 }
 
 .footer-logo {
-font-family: 'Raleway';
+font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -180,17 +177,64 @@ color: #2196F3;
 }
 
 .footer-adress-link {
+font-style: normal;
 font-size: 14px;
-line-height: 1/71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;    
 }
 .footer-mail,
 .footer-tel {
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-adress-link:hover,
+.footer-adress-link:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+color: #2196F3;
+}
+
+/*-----ПОРТФОЛІО-----*/ 
+
+.portfolio-main {
+background: #F5F5F5;    
+}
+/*-----Герой портфоліо-----*/
+
+.portfolio-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+color: #FFFFFF;    
+background-color: #2196F3;    
+}
+
+/*-----Приклади робіт-----*/
+
+.portfolio-title {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;    
+}
